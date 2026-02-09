@@ -14,7 +14,11 @@ int main() {
    
     
     Restaurant Mcdonalds = { 100, "123, Mcdonalds Str", .05, true, 22};
-    std::cout<< "yay" << std::endl;
+    std::cout<< "quantity: "<< Mcdonalds.quantity << std::endl;
+    std::cout<< "Addres: "<< Mcdonalds.Address << std::endl;
+    std::cout<< "discount: "<< Mcdonalds.discount << std::endl;
+    std::cout<< "price: "<< Mcdonalds.price << std::endl;
+    std::cout<< "rating: "<< Mcdonalds.Rating << std::endl;
 
     return 0;
 }
