@@ -14,7 +14,7 @@ int main() {
    
     
     Restaurant Mcdonalds = { 100, "123, Mcdonalds Str", .05, true, 22};
-
+    std::cout<< "yay" << std::endl;
 
     return 0;
 }
